@@ -1,0 +1,74 @@
+.customers__content-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+    list-style: none;
+}
+
+.content-list__dialog-window {
+    position: relative;
+    background-color: #E2E2E2;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    margin: 0;
+    padding: 37px 20px;
+}
+
+.content-list__dialog-window::after {
+    content: " ";
+    position: absolute;
+    left: 25px;
+    top: 177px;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 25px solid #E2E2E2;
+}
+
+.content-list__profile {
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.profile__photo {
+    width: 70px;
+    height: 70px;
+}
+
+.profile__photo--onepofile {
+    background-image: url(../img/Ellipse\ 1.png);
+
+}
+
+.profile__photo--twoprofile {
+    background-image: url(../img/Ellipse\ 2.png);
+}
+
+.profile__photo--threeprofile {
+    background-image: url(../img/Ellipse\ 3.png);
+}
+
+.profile__name {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.profile__position {
+    margin: 0;
+    color: black;
+    text-transform: capitalize;
+    text-align: start;
+    margin-top: 5px;
+}
