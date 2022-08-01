@@ -12,7 +12,7 @@
     margin-top: 59px;
 }
 .list__item{
-    width: 370px;
+    min-width: 370px;
 }
 .item__caption {
     font-family: 'Open Sans', sans-serif;

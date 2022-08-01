@@ -16,7 +16,8 @@
     content: " ";
     position: absolute;
     top: 160px;
-    left: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 170px;
     height: 1px;
     border: 1px solid #EC7979;
