@@ -2,17 +2,17 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 0;
     margin-top: 80px;
-    padding: 0;
-    list-style: none;
 }
-.conteiner__dialog-window{
+
+.conteiner__dialog-window {
     position: relative;
     padding-bottom: 30px;
-    
-}.conteiner__dialog-window::after
-{    content: " ";
+
+}
+
+.conteiner__dialog-window::after {
+    content: " ";
     position: absolute;
     left: 25px;
     bottom: 7px;
@@ -20,7 +20,9 @@
     height: 0;
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
-    border-top: 25px solid #E2E2E2;}
+    border-top: 25px solid #E2E2E2;
+}
+
 .content-list__dialog-window {
     position: relative;
     background-color: #E2E2E2;
