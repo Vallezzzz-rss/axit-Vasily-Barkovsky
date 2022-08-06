@@ -1,0 +1,48 @@
+.bg__axure-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/axure_bg.png);
+    margin-top: 64px;
+    padding-bottom: 126px;
+}
+
+.axure-block__title {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.axure-block__title::after{
+    content: " ";
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+    height: 1px;
+    border: 1px solid white;
+    display: block;
+    background-color: white;
+}
+.text--whitecolor {
+    color: white;
+    margin: 0;
+    margin-top: 65px;
+}
+.axure-block__button{
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 19px 95px;
+    font-size: 18px;
+    margin: 70px auto 0 auto;
+    text-transform: capitalize;
+    display: block;
+}
