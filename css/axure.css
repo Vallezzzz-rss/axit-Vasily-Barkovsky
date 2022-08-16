@@ -16,7 +16,8 @@
     margin: 0 auto;
     text-align: center;
 }
-.axure-block__title::after{
+
+.axure-block__title::after {
     content: " ";
     position: absolute;
     top: 130px;
@@ -28,12 +29,14 @@
     display: block;
     background-color: white;
 }
+
 .text--whitecolor {
     color: white;
     margin: 0;
     margin-top: 65px;
 }
-.axure-block__button{
+
+.axure-block__button {
     box-sizing: border-box;
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.1);
@@ -45,4 +48,10 @@
     margin: 70px auto 0 auto;
     text-transform: capitalize;
     display: block;
+}
+
+@media(max-width:1510px) and (min-width:1024px) {
+    .axit-block__title {
+        font-size: 36px;
+    }
 }

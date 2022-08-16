@@ -7,13 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <div class="back--picture__container">
         <header class="header__menu">
             <div class="container header__block">
-                <div class="logo"><img src="img/Logo.png" alt=""></div>
+                <picture class="logo">
+                    <source srcset="img/bannermob.png" type="image/png" media="(max-width:1023px)">
+                    <img src="img/Logo.png" alt="" class="content-tab__img">
+                </picture>
                 <nav>
                     <ul class="navigation__list">
                         <li class="nav-list__item"><a href="" class="item__link">features</a></li>
@@ -29,26 +33,24 @@
             <section class="axet-banner__block">
                 <div>
                     <div>
-                        <img src="img/logo of desc.png" alt="">
+                        <img src="img/logo of desc.png" alt="" class="banner__axet-block">
                     </div>
                     <div>
-                        <h1 class="axit-block__title">modern axure template<br> for beautiful<br> prototypes</h1>
+                        <h1 class="axit-block__title">modern axure template for beautiful prototypes</h1>
                         <p class="text axit-block__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
                         <button class="axit-block__buttom" type="button">Download</button>
                     </div>
                 </div>
                 <div>
-                    <div class="block__regestration">
+                    <form class="regestration__cont block__regestration" action="#" method="post"
+                        enctype="multipart/form-data">
                         <h2 class="regestration__title">try your <span class="title__decoration">free</span> trial today
                         </h2>
-                        <form class="regestration__cont" method="post">
-                            <input type="text" placeholder="name" class="cont__line">
-                            <input type="email" placeholder="email" class="cont__line">
-                            <input type="password" placeholder="password" class="cont__line">
-                        </form>
-                    </div>
-                    <button class="regestration__button">get started</button>
-                </div>
+                        <input type="text" name="username" placeholder="name" class="cont__line">
+                        <input type="email" name="useremail" placeholder="email" class="cont__line">
+                        <input type="password" name="userpass" placeholder="password" class="cont__line">
+                        <button value="submit" class="regestration__button">get started</button>
+                    </form>
             </section>
         </div>
     </div>
@@ -57,7 +59,7 @@
             <section class="media__block">
                 <div class="media__text">
                     <h2 class="media__title">Social Media</h2>
-                    <p class="media__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="media__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                         Aenean euismod bibendum laoreet.</p>
                 </div>
                 <ul class="media__icon">
@@ -73,7 +75,7 @@
             </section>
         </div>
     </div>
-    <div class="container">
+    <div class="tab-block__container">
         <section class="block-tab"></section>
         <ul class="block-tab__menu">
             <li><button class="menu__button menu__button--dicoration" type="button">tab 1</button></li>
@@ -96,7 +98,12 @@
                     bibendum laoreet.</p>
                 <button class="block-tab__button" type="button">Download</button>
             </div>
-            <img src="img/Rectangle 111.png" alt="">
+            <picture>
+                <source srcset="img/Rectangle 111.png" type="image/png" media="(max-width:1510px)">
+                <source srcset="img/Rectangle_planshet.png" type="image/png" media="(max-width:1510px)">
+                <img src="img/Rectangle 111.png" alt="" class="content-tab__img">
+            </picture>
+
         </div>
         </section>
         <section class="awesome">
@@ -241,6 +248,24 @@
                 <button type="button" class="axure-block__button">download</button>
             </section>
         </div>
+    </div>
+    <div>
+        <section class="block__contact-us">
+            <h2 class="awesome-prising-customers__title">contact us</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form action="" class="contact-us__form">
+                <div class="form__container">
+                    <input type="text" name="username" placeholder="name" class="cont__line">
+                    <input type="email" name="useremail" placeholder="email" class="cont__line">
+                    <input type="password" name="userpass" placeholder="password" class="cont__line">
+                </div>
+                <div><textarea class="container__text" name="message" id="" cols="30" rows="10"
+                        placeholder="message"></textarea>
+                </div>
+
+            </form>
+            <button class="contact-us__button">send message</button>
+        </section>
     </div>
     <footer class="block-footer">
         <div class="block__footer">
