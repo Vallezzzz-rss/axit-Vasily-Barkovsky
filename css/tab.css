@@ -116,5 +116,6 @@
     .block-tab__button {
         display: block;
         margin: 10px auto 0 auto;
+        width: 80%;
     }
 }

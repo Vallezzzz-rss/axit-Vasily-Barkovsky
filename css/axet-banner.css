@@ -125,7 +125,7 @@
     box-sizing: border-box;
     border: 1px solid #EC7979;
     border-radius: 0px 0px 15px 15px;
-    width: 32.6vw;
+    width: 100%;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -136,7 +136,7 @@
     padding: 19px 0px;
     margin: 0;
     flex: 1 1 auto;
-    margin-bottom: -1px;
+    margin: 0px -1px -1px -1px;
 
 
 }
@@ -187,7 +187,5 @@
         width: 100%;
     }
 
-    .regestration__button {
-        width: 100%;
-    }
+
 }
