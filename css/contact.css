@@ -2,6 +2,7 @@
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
 }
 
@@ -10,18 +11,22 @@
 .form__container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .form__container>input {
     width: 100%;
     margin: 0;
+    padding: 30px 0px 16px 0px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: #BDBDBD;
     text-transform: capitalize;
-    padding: 30px 0px 16px 0px;
+
+    color: #BDBDBD;
+
     box-sizing: border-box;
 }
 
@@ -30,44 +35,56 @@
     text-transform: capitalize;
     font-style: normal;
     font-weight: 400;
+
     border-top: none;
     border-right: none;
     border-left: none;
     border-bottom: 1px solid #BDBDBD;
-    padding: 0;
-    margin: 0;
-    outline: none;
     box-sizing: border-box;
-    height: 198px;
-    width: 100%;
+
+    margin: 0;
     padding: 30px 0px 0px 0px;
+
+    outline: none;
+
+    height: 197px;
+    width: 100%;
+
     resize: none;
 }
 
 .contact-us__button {
     display: block;
+
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    background-color: #EC7979;
-    color: white;
-    padding: 19px 95px;
-    border: none;
     font-size: 18px;
-    margin-top: 30px;
+
     text-transform: capitalize;
+
+    color: white;
+
+    background-color: #EC7979;
+
+    padding: 19px 95px;
+    margin-top: 30px;
+
+    border: none;
     margin: 50px auto;
 }
-@media(max-width:1023px){
-    .contact-us__form{
+
+.form__message {
+    width: 100%;
+}
+
+@media(max-width:1023px) {
+    .contact-us__form {
         display: flex;
         flex-direction: column;
         width: 80%;
-        
-    }
-    .mob_mod{
-        display: block;
-        width: 80%;
+
     }
 
-    
+
+
 }
