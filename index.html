@@ -16,7 +16,7 @@
             <div class="container header__block">
                 <picture class="logo">
                     <source srcset="img/bannermob.png" type="image/png" media="(max-width:1023px)">
-                    <img src="img/Logo.png" alt="" class="content-tab__img">
+                    <img src="img/Logo.png" alt="">
                 </picture>
                 <nav>
                     <ul class="navigation__list">
@@ -26,6 +26,26 @@
                         <li class="nav-list__item"><a href="" class="item__link">reviews</a></li>
                         <li class="nav-list__item"><a href="" class="item__link">contacs</a></li>
                     </ul>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+
+                        <ul class="menu__box">
+                            <li>
+                                <a class="menu__item" href="#">feature</a>
+                            </li>
+                            <li><a class="menu__item" href="#">about</a>
+                            </li>
+                            <li><a class="menu__item" href="#prising">prising</a>
+                            </li>
+                            <li><a class="menu__item" href="#">reviews</a>
+                            </li>
+                            <li><a class="menu__item" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -76,7 +96,7 @@
         </div>
     </div>
     <div class="container">
-    <div class="tab-block__container">
+        <div class="tab-block__container">
             <section class="block-tab"></section>
             <ul class="block-tab__menu">
                 <li><button class="menu__button menu__button--dicoration" type="button">tab 1</button></li>
@@ -107,7 +127,7 @@
 
             </div>
         </div>
-            </section>
+        </section>
         <section class="awesome">
             <h2 class="awesome-prising-customers__title">why this is awesome </h2>
             <p class="text awesome__text--subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -187,7 +207,7 @@
     </div>
     <div class="container">
         <section class="content-block__customers">
-            <h2 class="awesome-prising-customers__title">what our customers are saying</h2>
+            <h2 class="awesome-prising-customers__title title__dec">what our customers are saying</h2>
             <p class="text awesome__text--subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <section id="slider_bl">
                 <div class="wrapper">
@@ -332,15 +352,15 @@
         </section>
     </div>
     <footer class="block-footer">
-        <div class="block__footer">
-            <a href="" class="icon-FB_icon icon--mod"></a>
-            <a href="" class="icon-tw_icon icon--mod"></a>
-            <a href="" class="icon-li_icon icon--mod"></a>
-            <a href="" class="icon-pinterest_icon icon--mod"></a>
-            <a href="" class="icon-inst_icon icon--mod"></a>
-            <a href="" class="icon-github_icon icon--mod"></a>
-            <a href="" class="icon-rss_icon icon--mod"></a>
-        </div>
+        <ul class="media__icon">
+            <li class="icon__item"><a href="" class="icon-FB_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-tw_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-li_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-pinterest_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-inst_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-github_icon modif"></a></li>
+            <li class="icon__item"><a href="" class="icon-rss_icon modif"></a></li>
+        </ul>
         <p class="text footer_paragraph">© 2015 Axure Themes</p>
     </footer>
 </body>

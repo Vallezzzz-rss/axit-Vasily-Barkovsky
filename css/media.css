@@ -23,7 +23,7 @@
     display: flex;
     padding-top: 25px;
     gap: 2vw;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .icon__item {

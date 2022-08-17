@@ -101,6 +101,13 @@
         MARGIN: 0 auto;
         width: 80%;
     }
+    .conteiner__dialog-window{
+        padding-left: 10px;
+    }
+    .awesome-prising-customers__title{
+        box-sizing: border-box;
+    }
+    
 
 
 }
