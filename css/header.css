@@ -12,6 +12,7 @@
     height: 70px;
     padding: 17px 10px;
     box-sizing: border-box;
+    z-index: 2;
 }
 
 .navigation__list {
