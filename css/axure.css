@@ -53,7 +53,7 @@
     display: block;
 }
 
-@media(max-width:1510px) and (min-width:1024px) {
+@media(max-width:1510px) and (min-width:755px) {
     .axit-block__title {
         font-size: 36px;
     }

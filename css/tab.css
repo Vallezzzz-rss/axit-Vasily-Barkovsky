@@ -67,8 +67,16 @@
     object-fit: cover;
 
 }
+.container__contant {
+    padding-left: 80px;
+    padding-top: 20px;
+}
 
-@media(max-width:1510px) and (min-width:1024px) {
+@media(max-width:1510px) and (min-width:755px) {
+    .container__contant {
+        padding-left: 80px;
+        padding-top: 20px;
+    }
 
     .block-tab__title {
         font-size: 24px;
@@ -85,8 +93,12 @@
 
     }
 }
-
-@media(max-width:1023px) {
+@media(max-width:930px){
+    .content-tab__img {
+        display: none;
+    }
+}
+@media(max-width:755px) {
     .content-tab__img {
         display: none;
     }
@@ -120,5 +132,9 @@
         display: block;
         margin: 29px auto 0 auto;
         width: 80%;
+    }
+    .container__contant {
+        padding-left: 0;
+        padding-top: 0;
     }
 }

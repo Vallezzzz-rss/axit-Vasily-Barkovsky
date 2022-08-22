@@ -80,7 +80,7 @@
     width: 100%;
 }
 
-@media(max-width:1023px) {
+@media(max-width:755px) {
     .contact-us__form {
         display: flex;
         flex-direction: column;

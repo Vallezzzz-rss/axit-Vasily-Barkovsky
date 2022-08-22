@@ -36,7 +36,7 @@
     color: #FFFFFF;
 }
 
-@media(max-width:1023px) {
+@media(max-width:755px) {
     .navigation__list {
         display: none;
     }
