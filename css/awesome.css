@@ -1,3 +1,6 @@
+.awesome{
+    padding-top: 60px;
+}
 .awesome-prising-customers__title {
     position: relative;
     font-family: 'Raleway', sans-serif;
@@ -6,13 +9,13 @@
     font-size: 36px;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
 .awesome-prising-customers__title::after {
     content: " ";
     position: absolute;
-    bottom: -30%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 170px;

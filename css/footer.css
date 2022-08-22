@@ -1,19 +1,16 @@
-.block__footer{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 35px;
-}
-.icon--mod{
+.icon--mod {
     box-sizing: border-box;
     display: block;
     font-size: 42px;
     text-decoration: none;
 }
-.block-footer{
+
+.block-footer {
     background-color: black;
+    padding-top: 25px;
 }
-.footer_paragraph{
+
+.footer_paragraph {
     margin: 0;
     margin-top: 20px;
     padding-bottom: 15px;

@@ -1,3 +1,6 @@
+.content-block__customers{
+    padding-top: 60px;
+}
 .customers__content-list {
     display: flex;
     justify-content: center;
@@ -78,7 +81,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     color: #86878B;
-    text-align: center;
 }
 
 #slider_bl {
