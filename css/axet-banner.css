@@ -182,8 +182,9 @@
     }
 
     .axit-block__buttom {
-        margin: 10px auto;
+        margin: 42px auto 56px auto;
         display: block;
+        width: 90%;
     }
 
     .regestration__cont {

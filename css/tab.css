@@ -93,10 +93,12 @@
 
     .block-tab__title {
         font-size: 18px;
+        text-align: center;
     }
 
     .block-tab__text {
         font-size: 13px;
+        text-align: center;
     }
 
     .tab-block__container {
@@ -111,11 +113,12 @@
 
     .block-tab__container {
         display: block;
+        padding: 50px 50px 30px 50px;
     }
 
     .block-tab__button {
         display: block;
-        margin: 10px auto 0 auto;
+        margin: 29px auto 0 auto;
         width: 80%;
     }
 }

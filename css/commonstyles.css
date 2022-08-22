@@ -52,7 +52,7 @@ h6 {
 
     .container {
         margin: 0 auto;
-        max-width: 1010px;
+        width: 90%;
 
     }
 }

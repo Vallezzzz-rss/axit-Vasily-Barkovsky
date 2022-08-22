@@ -1,3 +1,6 @@
+.media-box{
+    background-color: #F8EFEF;
+}
 .media__block {
     display: flex;
     justify-content: space-between;
@@ -35,6 +38,7 @@
 }
 
 @media(max-width:1023px) {
+
     .media__block {
         flex-direction: column;
     }
@@ -50,5 +54,11 @@
     .media__icon {
         gap: 10px;
         justify-content: center;
+    }
+    .media-box{
+        padding: 30px 0 30px 0;
+    }
+    .icon__item{
+        font-size: 35px;
     }
 }
